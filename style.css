@@ -4,9 +4,26 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+main {
+    width: 80vw;
+    margin:0 auto;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border:1px solid black;
+    box-shadow: 5px 5px 5px 10px black;
+    border-radius: 50px 0;
+    background: linear-gradient(120deg, cornflowerblue 0%, cornflowerblue 50%, deeppink 50%);
+}
 
 body {
     background-color: salmon;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+
 }
 
 li {
